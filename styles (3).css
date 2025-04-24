@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid #8B4513;
+}
+
+.waiter {
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.dialog-box {
+  background: #FFF8DC;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #DAA520;
+}
+
+.dialog-box p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4B2E2E;
+  margin-bottom: 1rem;
+}
+
+.dialog-box input {
+  padding: 0.5rem;
+  width: 80%;
+  max-width: 200px;
+  border: 1px solid #8B4513;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.dialog-box button {
+  padding: 0.5rem 1.5rem;
+  background-color: #A52A2A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dialog-box button:hover {
+  background-color: #8B0000;
+}
